@@ -17,5 +17,9 @@ an example command
 
 ./box_fitter_arm64 91038212 5 8
 
+
+the folder Similar contains a close but not perfect code to examine
+and to play with 
+
 for any information 
 contact me at acherontia.myosotis@gmail.com
