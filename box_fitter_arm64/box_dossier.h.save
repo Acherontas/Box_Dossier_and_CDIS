@@ -1,0 +1,25 @@
+#ifndef BOX_DOSSIER_H
+#define BOX_DOSSIER_H
+#include <iostream>
+#include <iomanip>
+#include "math.h"
+#include <string>
+#include <thread>
+using namespace std;
+
+class box_dossier
+{
+    public:
+        box_dossier();
+        virtual ~box_dossier();
+        box_dossier(const box_dossier& other);
+        box_dossier& operator=(const box_dossier& other);
+        int dossi_boxifil(int number,float rst,int rowsx,int columnsz,string snumber,int preci);
+        
+    protected:
+
+    private:
+
+};
+
+#endif // BOX_DOSSIER_H
