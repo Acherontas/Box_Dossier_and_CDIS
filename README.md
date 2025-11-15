@@ -13,6 +13,9 @@ input number
 
 as long as it works 
 
+an example command 
+
+./box_fitter_arm64 91038212 5 8
 
 for any information 
 contact me at acherontia.myosotis@gmail.com
