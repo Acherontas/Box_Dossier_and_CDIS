@@ -1,0 +1,359 @@
+enter number,  timer sleep precision , rows to pass if 1  enter 1 pass
+if 2 it will make 10 passes
+eg 2785 5 1 1 or 2785 5 1 5number of 2785
+number as string 2785
+columns 4
+rows 0
+timer sleep precision 0
+
+Initial sum = 22
+
+---------Internal Sum -----------
+|---> 4
+|---> Exiting with 4
+--------End of Sum------------
+
+
+using 10 passes
+moving with rows value 2
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 0
+1 1 1 1 
+1 6 7 4 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| |||||| ||||||| ||||  per line isia ::== 18  per line plagia ::== 0
+
+counter isia ::== 22
+counter plagia ::== 0
+counter of result table ::== 0
+
+---oftype of main----
+4 18 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 
+with summary sub-number ::== 0
+
+moving with rows value 3
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 1
+1 1 1 1 
+1 1 1 1 
+0 5 6 3 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / ||||| |||||| |||  per line isia ::== 14  per line plagia ::== 1
+
+counter isia ::== 22
+counter plagia ::== 1
+counter of result table ::== 1
+
+---oftype of main----
+4 4 14 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 
+with summary sub-number ::== 1
+
+moving with rows value 4
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 2
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 4 5 2 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / |||| ||||| ||  per line isia ::== 11  per line plagia ::== 1
+
+counter isia ::== 22
+counter plagia ::== 2
+counter of result table ::== 2
+
+---oftype of main----
+4 4 3 11 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 
+with summary sub-number ::== 2
+
+moving with rows value 5
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 3
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 3 4 1 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / ||| |||| |  per line isia ::== 8  per line plagia ::== 1
+
+counter isia ::== 22
+counter plagia ::== 3
+counter of result table ::== 3
+
+---oftype of main----
+4 4 3 3 8 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 
+with summary sub-number ::== 3
+
+moving with rows value 6
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 4
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 2 3 0 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / || |||  /  per line isia ::== 5  per line plagia ::== 2
+
+counter isia ::== 22
+counter plagia ::== 5
+counter of result table ::== 4
+
+---oftype of main----
+4 4 3 3 3 5 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 2 
+with summary sub-number ::== 5
+
+moving with rows value 7
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 5
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 0 
+0 1 2 0 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ / | ||  /  per line isia ::== 3  per line plagia ::== 2
+
+counter isia ::== 22
+counter plagia ::== 7
+counter of result table ::== 5
+
+---oftype of main----
+4 4 3 3 3 2 3 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 2 2 
+with summary sub-number ::== 7
+
+moving with rows value 8
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 6
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 0 
+0 1 1 0 
+0 0 1 0 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ /  / |  /  per line isia ::== 1  per line plagia ::== 3
+
+counter isia ::== 22
+counter plagia ::== 10
+counter of result table ::== 6
+
+---oftype of main----
+4 4 3 3 3 2 2 1 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 2 2 3 
+with summary sub-number ::== 10
+
+moving with rows value 9
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 7
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 0 
+0 1 1 0 
+0 0 1 0 
+0 0 0 0 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ /  / |  /  per line isia ::== 1  per line plagia ::== 3
+
+ /  /  /  /  per line isia ::== 0  per line plagia ::== 4
+
+counter isia ::== 22
+counter plagia ::== 14
+counter of result table ::== 7
+
+---oftype of main----
+4 4 3 3 3 2 2 1 0 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 2 2 3 4 
+with summary sub-number ::== 14
+
+moving with rows value 10
+2 7 8 5 
+----------------------------------------------------------------
+filling with ::== 8
+1 1 1 1 
+1 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+0 1 1 0 
+0 1 1 0 
+0 0 1 0 
+0 0 0 0 
+0 0 0 0 
+----of-dashes-----------------------------
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+| | | |  per line isia ::== 4  per line plagia ::== 0
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | | |  per line isia ::== 3  per line plagia ::== 1
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ / | |  /  per line isia ::== 2  per line plagia ::== 2
+
+ /  / |  /  per line isia ::== 1  per line plagia ::== 3
+
+ /  /  /  /  per line isia ::== 0  per line plagia ::== 4
+
+ /  /  /  /  per line isia ::== 0  per line plagia ::== 4
+
+counter isia ::== 22
+counter plagia ::== 18
+counter of result table ::== 8
+
+---oftype of main----
+4 4 3 3 3 2 2 1 0 0 
+with summary number ::== 22
+
+---oftype of secondary---
+0 0 1 1 1 2 2 3 4 4 
+with summary sub-number ::== 18
+
+
+Isia : 
+@i     value_of   sum_of
+1        418        22
+2        4414        22
+3        44311        22
+4        44338        22
+5        443335        22
+6        4433323        22
+7        44333221        22
+8        443332210        22
+9        4433322100        22
+10                
+
+Plagia : 
+@i     value_of   sum_of
+1        00        0
+2        001        1
+3        0011        2
+4        00111        3
+5        001112        5
+6        0011122        7
+7        00111223        10
+8        001112234        14
+9        0011122344        18
+10                
+

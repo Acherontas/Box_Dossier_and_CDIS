@@ -1,0 +1,60 @@
+#include <iostream>
+#include <iomanip>
+#include "math.h"
+#include "box_dossier.h"
+#include <thread>
+#include "sum_cdi.h"
+using namespace std;
+
+int main(int argc,char** argv)
+{
+    int number ;
+    float rst;
+    int rowsx;
+    int columnsz;
+    int preci;
+    string snumber;
+    int passes;
+    cout<<"enter number,  timer sleep precision , rows to pass if 1  enter 1 pass\n";
+    cout<<"if 2 it will make 10 passes\n";
+    cout<<"eg 2785 5 1 1 or 2785 5 1 5";
+    number=stoi(argv[1]);
+    snumber.clear();
+    snumber+=to_string(number);
+    columnsz=snumber.size();
+    preci=stoi(argv[2]);
+    passes=stoi(argv[3]);
+    rowsx=stoi(argv[4]);
+    cout<<"number of " << number <<"\n";
+    cout<<"number as string " << snumber <<"\n";
+    cout<<"columns " << columnsz <<"\n";
+    cout<<"rows " << rowsx <<"\n";
+    cout<<"timer sleep precision " << preci <<"\n";
+
+    sum_cdi *smcdi= new sum_cdi();
+    smcdi->cdis(number,1);
+    cout<<"\n";
+    box_dossier *bds=new box_dossier();
+    if(passes==1){
+                  cout<<"moving only one pass\n";
+                  if(rowx==1){
+                        cout<<"its already in 1 xD \n";
+                        cout<<"changing to number 2
+                  }
+                  bds->dossi_boxifil(number,rst,rowsx,columnsz,snumber,preci);
+                 }
+    if(passes==2){
+                    cout<<"using 10 passes\n";
+    for(int i=2;i<=10;i++){
+                            rowsx=i;
+                            cout<<"moving with rows value " << i <<"\n";
+                            bds->dossi_boxifil(number,rst,rowsx,columnsz,snumber,preci);
+                        }
+                }
+
+    cout<<"\n";
+    bds->show_results();
+
+
+    return 0;
+}
