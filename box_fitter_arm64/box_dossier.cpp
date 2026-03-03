@@ -111,6 +111,7 @@ for(int i=0;i<=pos_idx-1;i++){
                                 cout<<ar_main[i] << " ";
                                 xsum+=ar_main[i];
                                 isios_sum[pin_ctl]+=to_string(ar_main[i]);
+                                isios_sum[pin_ctl]+=" ";
                              }
 cout<<"\n";
 cout<<"with summary number ::== " << xsum <<"\n"; isios_subsum[pin_ctl]+=to_string(xsum);
@@ -120,6 +121,7 @@ for(int i=0;i<=pos_idx-1;i++){
                                 cout<<ar_secon[i] << " " ;
                                 ysum+=ar_secon[i];
                                 plagios_sum[pin_ctl]+=to_string(ar_secon[i]);
+                                plagios_sum[pin_ctl]+=" ";
                              }
 cout<<"\n";
 cout<<"with summary sub-number ::== " << ysum <<"\n"; plagios_subsum[pin_ctl]+=to_string(ysum);
